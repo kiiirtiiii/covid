@@ -1,5 +1,5 @@
-VANTA.CELL({
-    el: "#cell",
+VANTA.ELL({
+    el: "#ell",
     mouseControls: true,
     touchControls: true,
     minHeight: 200.00,
