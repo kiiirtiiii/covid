@@ -1339,3 +1339,13 @@ section .section-title {
     height: 120px;
     border-radius: 50%;
 }
+
+#copyright{
+    text-align: center;
+    font-family: arial, sans-serif;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 24px;
+    color: #666666;
+    padding: 2rem;
+}
