@@ -26,11 +26,15 @@
       <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/2.1.5/jquery.fancybox.min.css" media="screen">
       <link rel="stylesheet" href="https://rawgit.com/LeshikJanz/libraries/master/Bootstrap/baguetteBox.min.css">
       <link rel="stylesheet" href="bgcell.css">
-      <link rel='stylesheet' href='https://owlcarousel2.github.io/OwlCarousel2/assets/owlcarousel/assets/owl.carousel.min.css'>
-  	  <link rel="stylesheet" href="./lifespan.css">
       <link href="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
       <script src="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
       <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+      <!-- Counter css nd js -->
+      <link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	  <link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css">
+	  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	  <link rel="stylesheet" href="css/counter.css">	  
+
       <!--[if lt IE 9]>
       <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
       <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script><![endif]-->
@@ -44,7 +48,7 @@
       <!-- end loader -->
       <!-- top -->
                     <!-- header -->
-         <header class="header-area">
+         <header class="header-area sticky">
             <div class="left">
                <a href="Javascript:void(0)"><i class="fa fa-search" aria-hidden="true"></i></a>
             </div>
@@ -58,15 +62,15 @@
                         <a href="index.html"></a>
                      </div>
                   </div>
-                  <div class="col-lg-10 offset-lg-1 col-md-12 col-sm-9">
-                     <div class="navbar-area">
-                        <nav class="site-navbar">
+                  <div class="col-lg-10 offset-lg-1 col-md-12 col-sm-9 ">
+                     <div class="navbar-area " >
+                        <nav class="site-navbar " >
                            <ul>
-                              <li><a class="active" href="index.html">Home</a></li>
+                              <li><a class="active" href="#home">Home</a></li>
                               <li><a href="#about">About</a></li>
                               <li><a href="#pvt">Spread</a></li>
                               <li><a href="#protect" class="logo_midle">Protect</a></li>
-                              <li><a href="#lifespan">Lifespan</a></li>
+                              <li><a href="#virus">Counter</a></li>
                               <li><a href="#team">Team</a></li>
                            </ul>
                            <button class="nav-toggler">
@@ -81,6 +85,7 @@
       <!-- end header -->
             <div class="full_bg">
       <!-- header inner -->
+      <section id="home">
          <div class="section">
             <!-- carousel code -->
             <div id="banner1" class="carousel slide slider_main">
@@ -150,6 +155,7 @@
                </a>
             </div>
          </div>
+        </section>
       </div>
       <!-- end banner -->
     <section id="about">
@@ -180,6 +186,7 @@
     <script src="js/three.r95.min.js"></script>
     <script src="js/vanta.cells.min.js"></script>
     <script src="js/cells.js"></script>
+    <script  src="js/counter.js"></script>
     </section>    
       <!-- about -->
       
@@ -294,120 +301,41 @@
       </div>
     </section>
       <!-- end protect -->
-    
-    <!-- Lifespan -->
-    <section id=virus>
-<!-- 		<div class="wowl-car owl-theme">
-		  <div class="car-item">
-		    <a href="#">
-		      <div class="car-item-image">
-		        <img src="img/metal.jpg" class="item-image">
-		      </div>
-		      <div class="car-item-text">
-		        <span class="item-kicker">Metal</span>
-		        <h3 class="item-title">Examples:<br> doorknobs, jewelry, silverware 5 days</h3>
-		      </div>
-		    </a>
+    <!-- Counter -->
+	<section id="virus">
+		
+		<div class="intro">
+		  <h1>Scroll down to see the animation</h1>
+		  <h1>The animation will start only when the element is visible on the screen</h1>
+		  <h1>Resize the page to see the difference</h1>
+		</div>
+		<div class="container-fluid text-center">
+		  <h1>Some cool facts</h1>
+		  <div class="row">
+		    <div class="col-sm-3">
+		      <i class="fa fa-user"></i>
+		      <h2 data-max="50" style="color: blue">+ Happy Customers</h2>
+		    </div>
+		    <div class="col-sm-3">
+		      <i class="fa fa-code"></i>
+		      <h2 data-max="25000" style="color: blue">+ Lines of code</h2>
+		    </div>
+		    <div class="col-sm-3">
+		      <i class="fa fa-lock"></i>
+		      <h2 data-max="10" style="color: blue">+ Projects</h2>
+		    </div>
+		    <div class="col-sm-3">
+		      <i class="fa fa-briefcase"></i>
+		      <h2 data-max="30" id="test" style="color: blue">+ Developers</h2>
+		    </div>
 		  </div>
-		  <div class="car-item">
-		    <a href="#">
-		      <div class="car-item-image">
-		        <img src="img/wood.jpg" class="item-image">
-		      </div>
-		      <div class="car-item-text">
-		        <span class="item-kicker">Wood</span>
-		        <h3 class="item-title">Examples: furniture, decking 4 days
-		</h3>
-		      </div>
-		    </a>
-		  </div>
-		  <div class="car-item">
-		    <a href="#">
-		      <div class="car-item-image">
-		        <img src="img/plastic.jpg" class="item-image" height="240">
-		      </div>
-		      <div class="car-item-text">
-		        <span class="item-kicker">Plastics</span>
-		        <h3 class="item-title">Examples: milk containers and detergent bottles, subway and bus seats, backpacks, elevator buttons 2 to 3 days</h3>
-		      </div>
-		    </a>
-		  </div>
-		  <div class="car-item">
-		    <a href="#">
-		      <div class="car-item-image">
-		        <img src="img/aluminium.jpg" class="item-image">
-		      </div>
-		      <div class="car-item-text">
-		        <span class="item-kicker">Stainless steel</span>
-		        <h3 class="item-title">Examples: refrigerators, pots and pans, sinks, some water bottles 2 to 3 days</h3>
-		      </div>
-		    </a>
-		  </div>
-		  <div class="car-item">
-		    <a href="#">
-		      <div class="car-item-image">
-		        <img src="img/cardboard.jpg" class="item-image" height="240">
-		      </div>
-		      <div class="carousel-item-text">
-		        <span class="item-kicker">Cardboard</span>
-		        <h3 class="item-title">Examples: shipping boxes 24 hours</h3>
-		      </div>
-		    </a>
-		  </div>
-		  <div class="car-item">
-		    <a href="#">
-		      <div class="car-item-image">
-		        <img src="img/copper.jpg" class="item-image" height="240">
-		      </div>
-		      <div class="car-item-text">
-		        <span class="item-kicker">Copper</span>
-		        <h3 class="item-title">Examples: pennies, teakettles, cookware 4 hours</h3>
-		      </div>
-		    </a>
-		  </div>
-		  <div class="car-item">
-		    <a href="#">
-		      <div class="car-item-image">
-		        <img src="img/fabric.jpg" class="item-image" height="240">
-		      </div>
-		      <div class="car-item-text">
-		        <span class="item-kicker">Fabric</span>
-		        <h3 class="item-title">Examples: clothes, linens
-		There’s not much research about how long the virus lives on fabric, but it’s probably not as long as on hard surfaces.</h3>
-		      </div>
-		    </a>
-		  </div>
-		  <div class="car-item">
-		    <a href="#">
-		      <div class="car-item-image">
-		        <img src="img/glass.jpg" class="item-image" height="240">
-		      </div>
-		      <div class="car-item-text" >
-		        <span class="item-kicker">Glass</span>
-		        <h3 class="item-title">Examples: drinking glasses, measuring cups, mirrors, windows Up to 5 days</h3>
-		      </div>
-		    </a>
-		  </div>
-		  <div class="car-item">
-		    <a href="#">
-		      <div class="car-item-image">
-		        <img src="img/shoes.jpg" class="item-image" height="240">
-		      </div>
-		      <div class="car-item-text">
-		        <span class="item-kicker">Shoes</span>
-		        <h3 class="item-title">One study tested the shoe soles of medical staff in a Chinese hospital intensive care unit (ICU) and found that half were positive for nucleic acids from the virus. But it’s not clear whether these pieces of the virus cause infection. The hospital’s general ward, which had people with milder cases, was less contaminated than the ICU.</h3>
-		      </div>
-		    </a>
-		  </div>
-		</div> -->
+		</div>
+		<!-- partial -->
 		<script src="three.r95.min.js"></script>
 		<script src="vanta.cells.min.js"></script>
 		<script src="virus.js"></script>
-		<!-- <script src='https://code.jquery.com/jquery-2.2.4.min.js'></script>
-		<script src='https://owlcarousel2.github.io/OwlCarousel2/assets/owlcarousel/owl.carousel.js'></script>
-		<script  src="./lifespan.js"></script>  -->
-
-</section>
+		<script  src="./script.js"></script>
+	</section>
     <!-- Lifespan End -->
     <!-- Our team -->
     <section id="team" class="pb-5">

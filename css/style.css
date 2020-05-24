@@ -355,8 +355,15 @@ button {
     list-style: none;
     display: flex;
 }
-
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 10;
+  color: black;
+}
 .site-navbar ul li a {
+
     color: #fef6fc;
     font-size: 17px;
     display: block;

@@ -1,0 +1,31 @@
+html,
+body,
+div {
+  padding: 0;
+  margin: 0;
+}
+i {
+  font-size: 4em !important;
+  margin-top: 10%;
+  color: red;
+}
+
+h1 {
+  padding-top: 30px;
+  color: red !important;
+}
+
+h2 {
+  color: blue;
+}
+
+.intro {
+  height: auto;
+  min-height: 100vh;
+  text-align: center;
+
+}
+#virus {
+    width: 100%;
+    height: 150vh;
+}
