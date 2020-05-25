@@ -21,11 +21,16 @@ h2 {
 
 .intro {
   height: auto;
-  min-height: 100vh;
+  min-height: 40vh;
   text-align: center;
 
 }
 #virus {
     width: 100%;
     height: 150vh;
+}
+
+.gap h1{
+  padding-top: 9rem;
+  border-bottom: 2px solid white;
 }

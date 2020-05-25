@@ -1122,32 +1122,6 @@ ul.top_infomation li i:hover {
     transition: ease-in all 0.5s;
 }
 
-
-.copyright {
-    margin-top: 60px;
-   
-    padding-bottom: 20px;
-}
-
-.copyright p {
-    border-top:#d1d1d1 solid 1px;
-    padding-top: 20px;
-    color: #d1d1d1;
-    font-size: 17px;
-    line-height: 22px;
-    text-align: center;
-    font-weight: normal;
-}
-
-.copyright a {
-    color: #d1d1d1;
-}
-
-.copyright a:hover {
-    color: #ed1c24;
-}
-
-
 /** end footer **/
 
 
@@ -1304,7 +1278,7 @@ section .section-title {
     border-radius: 50%;
 }
 
-#copyright{
+.copyright{
     text-align: center;
     font-family: arial, sans-serif;
     font-weight: 600;
@@ -1347,4 +1321,18 @@ section .section-title {
     background-size: cover;   
     opacity: 0.8;
     top: 0;
+}
+
+.last-home a{
+    color: black;
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+
+.last-home a:hover{
+    color: orange;
+}
+
+.lifespan-nav li a{
+    font-size: 0.8rem;
 }
