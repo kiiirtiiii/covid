@@ -3,11 +3,10 @@
     height: 100vh;
 }
 #virus {
-    width: 100%;
-    height: 100vh;
+    width: 50%;
+    height: 20vh;
 }
 body {
 	margin: 0;
-	padding: 0;
-	
+	padding: 0;	
 }

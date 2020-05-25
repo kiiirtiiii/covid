@@ -7,16 +7,16 @@ div {
 i {
   font-size: 4em !important;
   margin-top: 10%;
-  color: red;
+  color: black;
 }
 
 h1 {
   padding-top: 30px;
-  color: red !important;
+  color: white !important;
 }
 
 h2 {
-  color: blue;
+  color: white;
 }
 
 .intro {
