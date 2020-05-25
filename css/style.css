@@ -447,49 +447,6 @@ button {
     color: #fff;
 }
 
-
-
-
-/* intro-area css end */
-
-
-.left {
-
-    position: absolute;
-    background: #00132b;
-    width: 80px;
-    left: 0;
-    height: 87px;
-    top: 0;
-    text-align: center;
-    line-height: 87px;
-
-}
-
-.left  a i {
-    color: #fff;
-
-}
-.right {
-    position: absolute;
-    background: #00132b;
-    width: 80px;
-    right: 0;
-    height: 87px;
-    top: 0;
-    text-align: center;
-    line-height: 87px;
-
-}
-.right  a i {
-    color: #fff;
-
-}
-/** end header **/
-
-
-
-
 /** end header **/
 
 
