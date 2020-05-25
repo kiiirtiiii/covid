@@ -1357,6 +1357,28 @@ section .section-title {
     padding: 2rem;
 }
 
-#thankyou{
-    
+#blog{
+    font-family: arial,sans-serif;
+    margin: 150px;
+    letter-spacing: 0.3px;
+    line-height: 1.5;
+    color: #544f4f; 
+    background-image: url("images/about.png")
+}
+
+#blog ol li{
+    font-family: arial,sans-serif;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    letter-spacing: 0.3px;
+    line-height: 1.5;
+    color: #544f4f;
+}
+
+#blog-heading{
+    font-family: arial, sans-serif;
+    font-weight: 700;
+    text-align: center;
+    margin-top: 8rem;
+    font-size: 2rem;
 }
