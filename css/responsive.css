@@ -301,3 +301,17 @@ line-height: 30px;
        
     }
 }
+
+.text-center{
+        text-align: center;
+        font-weight: 700;
+        font-size: 1.2rem;
+}
+
+.site-navbar li a:hover{
+    color: black;
+}
+
+.site-navbar li a{
+    color: white;
+}
