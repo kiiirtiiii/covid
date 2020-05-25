@@ -1319,9 +1319,8 @@ section .section-title {
     margin: 150px;
     letter-spacing: 0.3px;
     line-height: 1.5;
-    color: #544f4f; 
-    background-image: url("images/about.png")
-}
+    color: #3c3d3c;
+ }
 
 #blog ol li{
     font-family: arial,sans-serif;
@@ -1329,13 +1328,23 @@ section .section-title {
     margin-bottom: 30px;
     letter-spacing: 0.3px;
     line-height: 1.5;
-    color: #544f4f;
 }
 
 #blog-heading{
     font-family: arial, sans-serif;
     font-weight: 700;
     text-align: center;
-    margin-top: 8rem;
-    font-size: 2rem;
+    font-size: 7rem;
+    color: white;  
+    padding-top: 10rem; 
+}
+
+#body-header{
+    background-image: url(../images/blog_bg.jpg);
+    width: 100vw;
+    height: 60vh;
+    background-repeat: no-repeat;
+    background-size: cover;   
+    opacity: 0.8;
+    top: 0;
 }
